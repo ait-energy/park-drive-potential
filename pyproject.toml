@@ -1,0 +1,25 @@
+[project]
+name = "intro-matsim"
+version = "1.0.0"
+description = "Estimate demand for Park & Drive using a calibrated MATSim population"
+readme = "README.md"
+requires-python = "~=3.12"
+dependencies = [
+    "geopandas~=1.1.0",
+    "h3~=4.3.0",
+    "keplergl~=0.3.7",
+    "matplotlib~=3.10.0",
+    "pandas~=2.3.0",
+    "shapely~=2.1.0",
+    "tol-colors~=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.4.0",
+    "pytest>=8.4.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
