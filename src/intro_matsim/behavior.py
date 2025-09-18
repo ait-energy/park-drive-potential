@@ -44,7 +44,7 @@ class BehaviorModel:
     """
 
     def __init__(self):
-        pnm = BehaviorModel._read_csv("PG_agg_MATSim/pnm_Survey/agg_pg_final_perc.csv")
+        pnm = BehaviorModel._read_csv("data/behavior-pronewmotion.csv")
         self.models = {
             MODEL_PNM: {
                 MODE_COMBINED: pnm,
@@ -52,14 +52,10 @@ class BehaviorModel:
                 MODE_PASSENGER: pnm,
             },
             MODEL_DOMINO: {
-                MODE_COMBINED: BehaviorModel._read_csv(
-                    "PG_agg_MATSim/DOMINO_Survey/agg_pg_final_perc_all.csv"
-                ),
-                MODE_DRIVER: self._read_csv(
-                    "PG_agg_MATSim/DOMINO_Survey/agg_pg_final_perc_driver.csv"
-                ),
+                MODE_COMBINED: BehaviorModel._read_csv("data/behavior-domino-all.csv"),
+                MODE_DRIVER: self._read_csv("data/behavior-domino-driver.csv"),
                 MODE_PASSENGER: BehaviorModel._read_csv(
-                    "PG_agg_MATSim/DOMINO_Survey/agg_pg_final_perc_passenger.csv"
+                    "data/behavior-domino-passenger.csv"
                 ),
             },
         }

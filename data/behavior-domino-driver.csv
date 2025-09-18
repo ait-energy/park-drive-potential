@@ -1,0 +1,9 @@
+job,age,Count_Chose,Count_Never_Chose,Perc_Yes,Perc_No
+"Berufstätig, Teilzeit",18-34 Jahre,60,60,0.5,0.5
+"Berufstätig, Teilzeit",35-49 Jahre,36,64,0.36,0.64
+"Berufstätig, Teilzeit",50+ Jahre,51,76,0.4015748031496063,0.5984251968503937
+"Berufstätig, Vollzeit",18-34 Jahre,175,153,0.5335365853658537,0.4664634146341463
+"Berufstätig, Vollzeit",35-49 Jahre,215,236,0.47671840354767187,0.5232815964523281
+"Berufstätig, Vollzeit",50+ Jahre,165,193,0.46089385474860334,0.5391061452513967
+in Ausbildung,18+ Jahre,64,40,0.6153846153846154,0.3846153846153846
+Nicht berufstätig,18+ Jahre,64,40,0.6153846153846154,0.3846153846153846
