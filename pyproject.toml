@@ -1,8 +1,13 @@
 [project]
 name = "intro-matsim"
 version = "1.0.0"
-description = "Estimate demand for Park & Drive using a calibrated MATSim population"
+description = "Tool to quickly quantify potential for Park & Drive locations based on MATSim traffic models"
 readme = "README.md"
+authors = [
+    { name = "Markus Straub", email = "markus.straub@ait.ac.at" }
+]
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = "~=3.12.0"
 dependencies = [
     "geopandas~=1.1.0",
